@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+data/*
+!data/.gitkeep
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+preload/*
+!preload/.gitkeep
+dist/
+exe/
+release/
+*.log
+*.tmp

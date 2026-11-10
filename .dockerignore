@@ -1,0 +1,12 @@
+data
+input
+output
+preload
+docs
+exe
+tests
+__pycache__
+*.pyc
+*.argosmodel
+.env
+.git

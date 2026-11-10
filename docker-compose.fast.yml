@@ -1,0 +1,8 @@
+# Fast iteration: mount the local app/ directory into the running container.
+# After editing Python/HTML/CSS/JS, run:
+#   docker compose -f docker-compose.yml -f docker-compose.fast.yml restart linguaflow
+# No image rebuild is required. Use the normal compose file for production.
+services:
+  linguaflow:
+    volumes:
+      - ./app:/app/app:ro
